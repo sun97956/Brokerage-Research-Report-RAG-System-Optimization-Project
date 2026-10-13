@@ -1,0 +1,4 @@
+Method,Description,Recall@3,Recall@5
+Baseline,Vector Retrieval,60.00%,66.67%
+Strategy 1,BM25 + Vector + Rerank,66.67%,76.67%
+Strategy 2,Query Rewrite + Vector Retrieval,63.33%,70.00%

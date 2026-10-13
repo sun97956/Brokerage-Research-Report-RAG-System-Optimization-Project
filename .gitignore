@@ -1,0 +1,9 @@
+__pycache__/
+*.pyc
+.env
+# 输入数据与中间产物不入库（格式见各 data/README.md）
+01_llm_answer_evaluation/data/*
+!01_llm_answer_evaluation/data/README.md
+03_retrieval_optimization/data/*
+!03_retrieval_optimization/data/README.md
+03_retrieval_optimization/results/
